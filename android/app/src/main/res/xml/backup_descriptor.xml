@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude shared_prefs if you don't need to back up user preferences -->
+    <exclude domain="sharedpref" path=""/>
+    
+    <!-- Exclude cache directory -->
+    <exclude domain="database" path="cache"/>
+    
+    <!-- Include files in the files directory -->
+    <include domain="file" path="files"/>
+    
+    <!-- Include the TFLite model -->
+    <include domain="file" path="app_flutter/model.tflite"/>
+    <include domain="file" path="app_flutter/labels.txt"/>
+</full-backup-content>

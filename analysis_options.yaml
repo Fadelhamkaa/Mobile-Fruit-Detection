@@ -1,0 +1,59 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - '**/*.g.dart'
+    - '**/*.freezed.dart'
+    - '**/*.mocks.dart'
+    - '**/*.gr.dart'
+    - '**/generated_plugin_registrant.dart'
+    - '**/generated/**'
+    - '**/build/**'
+
+  errors:
+    todo: ignore
+    missing_required_param: error
+    missing_return: error
+    invalid_use_of_protected_member: error
+    prefer_const_constructors_in_immutables: error
+    prefer_const_constructors: warning
+    prefer_const_literals_to_create_immutables: warning
+    prefer_final_fields: warning
+    prefer_final_locals: warning
+    prefer_typing_uninitialized_variables: warning
+    unused_import: warning
+    unused_local_variable: warning
+    dead_code: warning
+    avoid_print: ignore
+    avoid_single_cascade_in_expression_statements: ignore
+    avoid_types_as_parameter_names: ignore
+    constant_identifier_names: ignore
+    prefer_relative_imports: ignore
+    library_prefixes: ignore
+    implementation_imports: ignore
+    unnecessary_this: ignore
+    unnecessary_new: ignore
+    prefer_collection_literals: ignore
+    prefer_void_to_null: ignore
+    prefer_const_declarations: ignore
+    prefer_initializing_formals: ignore
+    prefer_interpolation_to_compose_strings: ignore
+    prefer_is_empty: ignore
+    prefer_is_not_empty: ignore
+    prefer_null_aware_operators: ignore
+    prefer_spread_collections: ignore
+    unnecessary_brace_in_string_interps: ignore
+    unnecessary_getters_setters: ignore
+    unnecessary_lambdas: ignore
+    unnecessary_null_aware_assignments: ignore
+    unnecessary_null_in_if_null_operators: ignore
+    unnecessary_overrides: ignore
+    unnecessary_parenthesis: ignore
+    unnecessary_statements: ignore
+    unnecessary_string_escapes: ignore
+    use_function_type_syntax_for_parameters: ignore
+    use_rethrow_when_possible: ignore
+    use_setters_to_change_properties: ignore
+    use_string_buffers: ignore
+    valid_regexps: ignore
+    void_checks: ignore
